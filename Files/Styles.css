@@ -7,12 +7,12 @@ body {
 .container {
     border-style: solid;
     border-color: black;
-    display: flex;
     flex-wrap: wrap;
     margin:0;
     box-sizing: border-box;
-    width:500px;
-    height: 500px;
+    width:960px;
+    height: 960px;
+    display: flex;
     
 
 }
@@ -23,11 +23,20 @@ body {
     border-color:black;
     justify-content: flex-start;
     aspect-ratio: 1/1;
-    width: 6.25%;  
+    width: 6.25%;
     margin:0;
     box-sizing: border-box;
 }
 
 .gridBox.className {
     background-color: blueviolet;
+}
+
+.newButton {
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 10px;
+    align-items: baseline;
+    height: 50px;
 }
