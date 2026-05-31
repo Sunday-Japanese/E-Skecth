@@ -36,8 +36,14 @@ function renovateSize() {
 
     let boxSize = 100/size;
     gridBox.style.width =  `${boxSize}%`
-        gridBox.addEventListener("mouseenter",() =>
-    gridBox.classList.add("className"))
+        gridBox.addEventListener("mouseenter",() => {
+        let red = Math.random()*256;
+        let g = Math.random()*256;
+        let b = Math.random()*256;
+    
+        gridBox.style.backgroundColor = 'rgb(' + red + ',' + g + ',' + b + ')';
+        })
+
 
      container.appendChild(gridBox) // appends all the blocks present in the loop , instead of only appending on box
  

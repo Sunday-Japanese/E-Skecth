@@ -28,9 +28,7 @@ body {
     box-sizing: border-box;
 }
 
-.gridBox.className {
-    background-color: blueviolet;
-}
+
 
 .newButton {
     display:flex;
