@@ -9,7 +9,11 @@ for (let i = 0; i < 256; i++) {
     container.appendChild(gridBox)
 }
 
-let selectBox = document.querySelectorAll("gridBox")
+let gridBox = document.querySelectorAll(".gridBox");
 
+gridBox.forEach(box => 
+    box.addEventListener("mouseenter",() =>
+    box.classList.add("className"))
 
+)
 

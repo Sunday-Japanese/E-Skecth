@@ -28,6 +28,6 @@ body {
     box-sizing: border-box;
 }
 
-.gridBox:hover {
+.gridBox.className {
     background-color: blueviolet;
 }
