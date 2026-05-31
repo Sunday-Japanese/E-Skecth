@@ -1,0 +1,33 @@
+body {
+    
+    box-sizing: border-box;
+    display: flex;
+    
+}
+.container {
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0;
+    box-sizing: border-box;
+    width:500px;
+    height: 500px;
+    
+
+}
+
+.gridBox {
+    display: flex;
+    border-style: solid;
+    border-color:black;
+    justify-content: flex-start;
+    aspect-ratio: 1/1;
+    width: 6.25%;  
+    margin:0;
+    box-sizing: border-box;
+}
+
+.gridBox:hover {
+    background-color: blueviolet;
+}
